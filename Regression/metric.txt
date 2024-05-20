@@ -1,0 +1,216 @@
+testinng random state 0
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0001
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0033
+R2 (Testing): 0.9999
+
+done
+testinng random state 42
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0001
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0046
+R2 (Testing): 0.9997
+
+done
+testinng random state 100
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0002
+MSE (Testing): 0.0001
+RMSE (Testing): 0.0072
+R2 (Testing): 0.9993
+
+done
+testinng random state 1000
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0001
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0029
+R2 (Testing): 0.9999
+
+done
+testinng random state 10000
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0002
+MSE (Testing): 0.0001
+RMSE (Testing): 0.0074
+R2 (Testing): 0.9993
+
+done
+testinng random state 1337
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0001
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0038
+R2 (Testing): 0.9998
+
+done
+testinng random state 7331
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0001
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0070
+R2 (Testing): 0.9994
+
+done
+testinng random state 31337
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0001
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0048
+R2 (Testing): 0.9997
+
+done
+testinng random state 123456
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0001
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0029
+R2 (Testing): 0.9999
+
+done
+testinng random state 654321
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0002
+MSE (Testing): 0.0001
+RMSE (Testing): 0.0078
+R2 (Testing): 0.9992
+
+done
+testinng random state 6321737
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0001
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0027
+R2 (Testing): 0.9999
+
+done
+testinng random state 23813385
+Hyperparameters
+{'n_neighbors': 5, 'weights': 'distance', 'algorithm': 'brute', 'leaf_size': 10, 'metric': 'manhattan'}
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0001
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0070
+R2 (Testing): 0.9994
+
+done
