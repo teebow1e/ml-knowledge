@@ -1,8 +1,8 @@
-import Model
+import Regression.regression_utility as regression_utility
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import GridSearchCV
 
-X_train, X_test, y_train, y_test, X, y = Model.initialize()
+X_train, X_test, y_train, y_test, X, y = regression_utility.initialize()
 
 hyperparameters = {
     'n_neighbors': [3, 5, 10, 50, 100, 500, 1000, 5000],
@@ -22,7 +22,7 @@ grid_search.fit(X_train, y_train)
 best_model = grid_search.best_estimator_
 
 print("\n----- Best model evaluation: -----")
-best_params = Model.evaluate(best_model, X_train, y_train, X_test, y_test)
+best_params = regression_utility.evaluate(best_model, X_train, y_train, X_test, y_test)
 
 print("\n----- Best Hyperparameters: -----")
 for param, value in grid_search.best_params_.items():

@@ -1,11 +1,8 @@
 import pandas as pd
-import numpy as np
-import Model
+import Classification.classification_utility as classification_utility
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import classification_report
 import joblib
-import matplotlib.pyplot as plt
 
 def Train():
     df = pd.read_csv("../data/outlier_included.csv")
@@ -23,10 +20,7 @@ def Train():
     y = df["class_strength"]
 
 
-    # random_states = [0, 42, 100, 1000, 10000, 1337, 7331, 31337, 123456, 654321, 6321737, 23813385]
-    # for rs in random_states:
-    #     print(f"testinng random state {rs}")
-    #     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=rs)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     hyperparameters = {
         'n_neighbors': 3,
@@ -39,12 +33,11 @@ def Train():
     model = KNeighborsClassifier(**hyperparameters)
     model.fit(X, y)
 
-    print("Hyperparameters")
-    print(hyperparameters)
-    # Model.evaluate(model, X_train, y_train, X_test, y_test)
-
-    print("TRAINING FINISHED")
+    print(f"Hyperparameters: {hyperparameters}")
+    
+    classification_utility.evaluate(model, X_train, y_train, X_test, y_test)
     joblib.dump(model, '../model/final/knn_classification.pkl')
+    print("TRAINING FINISHED")
 
 if __name__ == "__main__":
     Train()

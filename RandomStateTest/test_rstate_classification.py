@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-from sklearn.inspection import permutation_importance
 import matplotlib.pyplot as plt
 
 def initialize(random_state=2024):
@@ -48,6 +47,7 @@ def main():
     for state in random_states:
         print("[!] testing random state:", state)
         X_train, X_test, y_train, y_test, X, y = initialize(random_state=state)
+        # input your paramerter here
         model = KNeighborsClassifier(n_neighbors=3, weights='uniform', metric='euclidean', algorithm='auto', leaf_size=10)
         model.fit(X_train, y_train)
         results.append(evaluate(model, X_train, y_train, X_test, y_test))

@@ -1,9 +1,8 @@
-import Model
+import Classification.classification_utility as classification_utility
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import GridSearchCV
 
-# Initialize the data
-X_train, X_test, y_train, y_test, X, y = Model.initialize()
+X_train, X_test, y_train, y_test, X, y = classification_utility.initialize()
 
 hyperparameters = {
     'n_neighbors': [3, 5, 10, 50, 100, 500, 1000, 5000],
@@ -18,22 +17,17 @@ model = KNeighborsClassifier()
 grid_search = GridSearchCV(estimator=model, param_grid=hyperparameters, cv=10, scoring='accuracy', verbose=1)
 
 print("\n----- Training phase: -----")
-# Perform grid search
 grid_search.fit(X_train, y_train)
 
-# Best model after grid search
 best_model = grid_search.best_estimator_
 
 print("\n----- Best model evaluation: -----")
-# Evaluate the best model using your Model module's evaluate method
-best_params = Model.evaluate(best_model, X_train, y_train, X_test, y_test)
+best_params = classification_utility.evaluate(best_model, X_train, y_train, X_test, y_test)
 
 print("\n----- Best Hyperparameters: -----")
-# Print the best hyperparameters
 for param, value in grid_search.best_params_.items():
     print(f"{param}: {value}")
 
-# Optionally, print best score achieved
 print("\nBest score achieved:", grid_search.best_score_)
 
 
