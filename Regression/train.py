@@ -1,11 +1,11 @@
 import pandas as pd
-import Regression.regression_utility as regression_utility
+import regression_utility as regression_utility
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import train_test_split
 import joblib
 
 def Train():
-    df = pd.read_csv("../data/outlier_included.csv")
+    df = pd.read_csv("../data/update_dataset.csv")
 
     X = df.drop(["password", "strength", "class_strength"], axis=1)
     y = df["strength"]
@@ -26,7 +26,7 @@ def Train():
     print(f"Hyperparameters: {hyperparameters}")
 
     regression_utility.evaluate(model, X_train, y_train, X_test, y_test)
-    joblib.dump(model, '../model/final/knn_regressor.pkl')
+    joblib.dump(model, '../model/retrain_knn_regrressor.pkl')
     print("TRAINING FINISHED")
 
 if __name__ == "__main__":

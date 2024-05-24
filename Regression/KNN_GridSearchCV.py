@@ -1,20 +1,20 @@
-import Regression.regression_utility as regression_utility
+import regression_utility as regression_utility
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import GridSearchCV
 
 X_train, X_test, y_train, y_test, X, y = regression_utility.initialize()
 
 hyperparameters = {
-    'n_neighbors': [3, 5, 10, 50, 100, 500, 1000, 5000],
-    'weights': ['uniform', 'distance'],
-    'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'],
-    'leaf_size': [10, 20, 30, 40],
-    'metric': ['euclidean', 'manhattan', 'minkowski']
+    'n_neighbors': [1, 3, 5, 10, 15, 20],
+    'weights': ['distance'],
+    'algorithm': ['brute'],
+    'leaf_size': [10],
+    'metric': ['manhattan']
 }
 
 model = KNeighborsRegressor()
 
-grid_search = GridSearchCV(estimator=model, param_grid=hyperparameters, cv=10, scoring='neg_mean_squared_error', verbose=1)
+grid_search = GridSearchCV(estimator=model, param_grid=hyperparameters, cv=10, scoring='neg_mean_squared_error', verbose=3)
 
 print("\n----- Training phase: -----")
 grid_search.fit(X_train, y_train)

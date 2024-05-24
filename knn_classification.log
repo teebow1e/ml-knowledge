@@ -1,0 +1,205 @@
+----- Training phase: -----
+Fitting 10 folds for each of 18 candidates, totalling 180 fits
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.4s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.4s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.4s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.4s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.7s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=euclidean, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.5s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.5s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.5s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=manhattan, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.7s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=1, weights=uniform;, score=1.000 total time=   0.4s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.5s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=3, weights=uniform;, score=1.000 total time=   0.4s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.6s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=5, weights=uniform;, score=1.000 total time=   0.5s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.5s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=10, weights=uniform;, score=1.000 total time=   0.6s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.5s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=15, weights=uniform;, score=1.000 total time=   0.6s
+[CV 1/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 2/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 3/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 4/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 5/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 6/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 7/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 8/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.9s
+[CV 9/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+[CV 10/10] END algorithm=auto, leaf_size=10, metric=minkowski, n_neighbors=20, weights=uniform;, score=1.000 total time=   0.6s
+
+----- Best model evaluation: -----
+
+----- Validation phase: -----
+Accuracy (Validation): 1.0000
+Precision (Validation): 1.0000
+Recall (Validation): 1.0000
+F1 Score (Validation): 1.0000
+
+----- Testing phase: -----
+Accuracy (Testing): 1.0000
+Precision (Testing): 1.0000
+Recall (Testing): 1.0000
+F1 Score (Testing): 1.0000
+
+----- Best Hyperparameters: -----
+algorithm: auto
+leaf_size: 10
+metric: euclidean
+n_neighbors: 3
+weights: uniform
+
+Best score achieved: 1.0

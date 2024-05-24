@@ -1,0 +1,88 @@
+
+----- Training phase: -----
+Fitting 10 folds for each of 6 candidates, totalling 60 fits
+[CV 1/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   4.8s
+[CV 2/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   4.2s
+[CV 3/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   4.2s
+[CV 4/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   4.4s
+[CV 5/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   4.5s
+[CV 6/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   4.7s
+[CV 7/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   4.2s
+[CV 8/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   4.3s
+[CV 9/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   5.7s
+[CV 10/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=1, weights=distance;, score=-0.000 total time=   4.7s
+[CV 1/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   8.5s
+[CV 2/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   7.5s
+[CV 3/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   7.2s
+[CV 4/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   8.9s
+[CV 5/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   8.9s
+[CV 6/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   7.0s
+[CV 7/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   7.0s
+[CV 8/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   8.6s
+[CV 9/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   9.1s
+[CV 10/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=3, weights=distance;, score=-0.000 total time=   7.5s
+[CV 1/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   8.6s
+[CV 2/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   9.1s
+[CV 3/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   8.9s
+[CV 4/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   7.5s
+[CV 5/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   9.3s
+[CV 6/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   8.8s
+[CV 7/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   8.5s
+[CV 8/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   7.8s
+[CV 9/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   9.3s
+[CV 10/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=5, weights=distance;, score=-0.000 total time=   8.4s
+[CV 1/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   8.0s
+[CV 2/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   7.6s
+[CV 3/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   8.1s
+[CV 4/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   9.6s
+[CV 5/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   8.2s
+[CV 6/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   8.0s
+[CV 7/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   9.3s
+[CV 8/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   8.5s
+[CV 9/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   7.7s
+[CV 10/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=10, weights=distance;, score=-0.000 total time=   9.0s
+[CV 1/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   7.8s
+[CV 2/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   8.1s
+[CV 3/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   8.7s
+[CV 4/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   9.1s
+[CV 5/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   8.8s
+[CV 6/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   7.7s
+[CV 7/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   8.8s
+[CV 8/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   8.2s
+[CV 9/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   8.6s
+[CV 10/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=15, weights=distance;, score=-0.000 total time=   7.9s
+[CV 1/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   8.7s
+[CV 2/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   8.5s
+[CV 3/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   8.5s
+[CV 4/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   8.8s
+[CV 5/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   8.3s
+[CV 6/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   9.3s
+[CV 7/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   8.0s
+[CV 8/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   9.1s
+[CV 9/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   7.8s
+[CV 10/10] END algorithm=brute, leaf_size=10, metric=manhattan, n_neighbors=20, weights=distance;, score=-0.000 total time=   8.6s
+
+----- Best model evaluation: -----
+
+----- Validation phase: -----
+MAE (Validation): 0.0000
+MSE (Validation): 0.0000
+RMSE (Validation): 0.0000
+R2 (Validation): 1.0000
+
+
+----- Testing phase: -----
+MAE (Testing): 0.0000
+MSE (Testing): 0.0000
+RMSE (Testing): 0.0003
+R2 (Testing): 1.0000
+
+
+----- Best Hyperparameters: -----
+algorithm: brute
+leaf_size: 10
+metric: manhattan
+n_neighbors: 5
+weights: distance
+
+Best score achieved: -5.152920970993214e-07

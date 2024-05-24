@@ -7,7 +7,7 @@ from sklearn.inspection import permutation_importance
 import matplotlib.pyplot as plt
 
 def initialize():
-    df = pd.read_csv("../data/outlier_included.csv")
+    df = pd.read_csv("../data/update_dataset.csv")
 
     X = df.drop(["password", "strength", "class_strength"], axis=1)
     y = df["strength"]
